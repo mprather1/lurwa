@@ -3,7 +3,7 @@ var myApp = angular.module('myApp', [
   'artistControllers'
 ]);
 
-myApp.config(['$routeProvider', function($routeProvider){
+myApp.config(['$routeProvider', function($routeProvider) {
   $routeProvider.
   when('/list', {
     templateUrl: 'partials/list.html',
